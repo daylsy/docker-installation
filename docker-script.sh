@@ -1,5 +1,5 @@
 sudo apt update && sudo apt upgrade
-sudo apt install screen -y
+# sudo apt install screen -y
 
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get update
@@ -15,5 +15,5 @@ sudo apt-get install \
   sudo apt-get update
   sudo apt-get install docker-ce docker-ce-cli containerd.io
 
-curl https://www.espressosys.com/cape/docker-compose.yaml --output docker-compose.yaml
-docker-compose pull
+# curl https://www.espressosys.com/cape/docker-compose.yaml --output docker-compose.yaml
+# docker-compose pull
